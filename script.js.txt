@@ -1,0 +1,8 @@
+// Example of adding an item to the cart
+function addToCart() {
+    alert('Product added to cart!');
+}
+
+// Event listener for "Add to Cart" button
+const button = document.querySelector('button');
+button.addEventListener('click', addToCart);
